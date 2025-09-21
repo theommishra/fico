@@ -9,16 +9,17 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@clerk/nextjs": "^6.32.0",
-    "@headlessui/react": "^2.2.8",
-    "@stream-io/node-sdk": "^0.6.7",
-    "@stream-io/video-react-sdk": "^1.21.3",
-    "next": "15.5.3",
-    "react": "19.1.0",
-    "react-copy-to-clipboard": "^5.1.0",
-    "react-dom": "19.1.0",
-    "react-icons": "^5.5.0"
-  },
+  "@clerk/nextjs": "^6.32.0",
+  "@headlessui/react": "^2.2.8",
+  "@stream-io/node-sdk": "^0.6.7",
+  "@stream-io/video-react-sdk": "^1.21.3",
+  "next": "15.5.3",
+  "react": "^18.3.1",
+  "react-dom": "^18.3.1",
+  "react-copy-to-clipboard": "^5.1.0",
+  "react-icons": "^5.5.0"
+},
+
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
