@@ -1,11 +1,10 @@
 "use client"
 import { useState } from "react";
 import { FaLink, FaVideo } from "react-icons/fa";
-import InstantMeeting from "@/app/modals/InstantMeeting";
-import UpcomingMeeting from "@/app/modals/UpcomingMeeting";
+// import InstantMeeting from "@/app/modals/InstantMeeting";
+// import UpcomingMeeting from "@/app/modals/UpcomingMeeting";
 import CreateLink from "@/app/modals/CreateLink";
 import JoinMeeting from "@/app/modals/JoinMeeting";
-
 
 export default function Dashboard() {
   const [startInstantMeeting, setStartInstantMeeting] = useState<boolean>(false);
@@ -35,19 +34,19 @@ export default function Dashboard() {
 
       </main>
       {
-        startInstantMeeting && (<InstantMeeting enable={startInstantMeeting} setEnable={setStartInstantMeeting} />)
+        // startInstantMeeting && (<InstantMeeting enable={startInstantMeeting} setEnable={setStartInstantMeeting} />)
       }
       {
-        showUpcomingMeetings && (<UpcomingMeeting enable={showUpcomingMeetings} setEnable={setShowUpcomingMeetings} />)
+        // showUpcomingMeetings && (<UpcomingMeeting enable={showUpcomingMeetings} setEnable={setShowUpcomingMeetings} />)
       }
       {
         showCreateLink && (
-          <CreateLink enable ={showCreateLink} setEnable={setShowCreateLink}/>
+          <CreateLink enable={showCreateLink} setEnable={setShowCreateLink} />
         )
       }
       {
         joinMeeting && (
-          <JoinMeeting enable ={joinMeeting} setEnable={setJoinMeeting}/>
+          <JoinMeeting enable={joinMeeting} setEnable={setJoinMeeting} />
         )
       }
     </>
